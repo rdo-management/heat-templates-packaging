@@ -17,7 +17,7 @@ BuildArch: noarch
 Heat software config templates and image building elements
 
 %prep
-%setup -qn heat-templates-%{commit}
+%setup -qn heat-templates-%{upstream_version}
 
 %build
 
